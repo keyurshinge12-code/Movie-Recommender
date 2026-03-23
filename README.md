@@ -39,21 +39,21 @@ Found similar movies based on distance between vectors
 
 movie-recommender/
 │
-├── app.py
-├── recommender.py
-├── train_model.py
-├── requirements.txt
-├── README.md
+├── app.py # Streamlit app (UI)
+├── recommender.py # Recommendation logic
+├── train_model.py # Model training script
+├── requirements.txt # Dependencies
+├── README.md # Project documentation
 │
 ├── data/
-│   ├── movies.csv
-│   ├── ratings.csv
+│ ├── movies.csv # Movie dataset
+│ ├── ratings.csv # User ratings dataset
 │
 ├── models/
-│   ├── movies.pkl
-│   ├── final_data.pkl
-│   ├── knn_model.pkl
-│   ├── csr_data.pkl
+│ ├── movies.pkl # Saved movies data
+│ ├── final_data.pkl # Processed user-movie matrix
+│ ├── knn_model.pkl # Trained KNN model
+│ ├── csr_data.pkl # Sparse matrix
 
 
 
